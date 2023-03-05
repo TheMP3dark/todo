@@ -1,0 +1,10 @@
+<div class="container-main">
+  <app-header [value]="showAddNoteSection" (btnClicked)="changAddNoteSectionVisibility($event)"></app-header>
+  <app-add-new-note *ngIf="showAddNoteSection"></app-add-new-note>
+  <app-todo-list class="unselectable"></app-todo-list>
+  <br>
+  <hr>
+  <a routerLink="about-us" class="link">
+    About Us
+  </a>
+</div>

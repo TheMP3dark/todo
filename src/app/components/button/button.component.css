@@ -1,0 +1,21 @@
+.btn-primary {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 1rem;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+}
+
+.btn-close {
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  padding: 1rem;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(184, 51, 28);
+}

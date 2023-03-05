@@ -1,0 +1,18 @@
+<div
+  *ngIf="todoItem"
+  [ngClass]="
+    todoItem.setReminder ? 'todo-reminder-container' : 'todo-item-container'
+  "
+  (dblclick)="onTodoItemDoubleClick(todoItem)"
+>
+  <span class="todo-item-heading">
+    {{ todoItem.title }}
+  </span>
+  <span class="todo-item-content">
+    {{ todoItem.content }}
+  </span>
+  <hr>
+  <div (click)="onDeleteNote(todoItem)" class="delete-btn">
+    DELETE
+  </div>
+</div>

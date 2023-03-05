@@ -1,0 +1,28 @@
+{
+  "todoItemsData": [
+    {
+      "title": "Study Angular",
+      "content": "Look into form handling. Both reactive as well as template driven forms.",
+      "setReminder": true,
+      "id": 1
+    },
+    {
+      "title": "Create weather app",
+      "content": "",
+      "setReminder": false,
+      "id": 2
+    },
+    {
+      "title": "Alphabets",
+      "content": "The quick brown fox jumps over the lazy dog!",
+      "setReminder": false,
+      "id": 3
+    },
+    {
+      "title": "Double click a note to toggle reminder",
+      "content": "Go ahead and try it for yourself",
+      "setReminder": false,
+      "id": 4
+    }
+  ]
+}

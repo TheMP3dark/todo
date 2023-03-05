@@ -1,0 +1,32 @@
+.todo-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 40px;
+  border: 1.5px solid black;
+}
+
+.todo-reminder-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 40px;
+  border: 3px solid green;
+}
+
+.todo-item-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.delete-btn {
+  width: 10%;
+  color: red;
+  font-weight: 900;
+  font-size: 1.2rem;
+  overflow:hidden;
+}

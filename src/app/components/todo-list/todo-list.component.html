@@ -1,0 +1,9 @@
+<div class="todo-list-container">
+  <div *ngFor="let todoItem of todoItems">
+    <app-todo-item
+      [todoItem]="todoItem"
+      (toggleReminder)="onToggleReminder($event)"
+      (deleteNote)="onDeleteNote($event)"
+    ></app-todo-item>
+  </div>
+</div>

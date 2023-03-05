@@ -1,0 +1,9 @@
+.error-404 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family:'Courier New', Courier, monospace;
+  color: red;
+  font-weight: "700";
+  font-size: 20rem;
+}

@@ -1,0 +1,42 @@
+.form-group {
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 75%;
+  margin: auto;
+  padding: 3rem;
+}
+
+.btn-primary {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  padding: 1rem;
+  margin: auto;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65);
+}
+
+.btn-primary:disabled {
+  background-color: gray;
+}
+
+.form-field-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+input {
+  font-size: 1.2rem;
+}
+
+#note-content {
+  resize: none;
+  font-size: 1.2rem;
+}

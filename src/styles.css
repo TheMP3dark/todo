@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Courier New', monospace;
+}
+
+.container-main {
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid black;
+}

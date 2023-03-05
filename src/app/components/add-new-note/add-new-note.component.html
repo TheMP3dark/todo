@@ -1,0 +1,36 @@
+<form class="form-group">
+  <div class="form-field-group">
+    <label> Title </label>
+    <input
+      type="text"
+      title="Title"
+      placeholder="Title"
+      id="note-title"
+      name="title"
+      [(ngModel)]="title"
+    />
+  </div>
+  <div class="form-field-group">
+    <label> Note </label>
+    <textarea
+      title="Note content"
+      name="content"
+      [(ngModel)]="content"
+      placeholder="Note content"
+      id="note-content"
+      rows="4"
+      cols="50"
+    ></textarea>
+  </div>
+  <div>
+    <input
+      type="checkbox"
+      title="Set Reminder"
+      name="setReminder"
+      [(ngModel)]="setReminder"
+      id="reminder-checkbox"
+    />
+    <label>Set reminder</label>
+  </div>
+  <input type="submit" class="btn-primary" (click)="addNote()"/>
+</form>
